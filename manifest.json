@@ -41,5 +41,13 @@
       "128": "data/icons/robot-128.png"
     },
 	"default_title": "SuperMemo Connector (disconnected)"
+  },
+  "commands": {
+      "_extract_selection": {
+          "suggested_key": {
+              "default": "Alt+X"
+          },
+          "description": "Import selection in SuperMemo"
+      }
   }
 }
