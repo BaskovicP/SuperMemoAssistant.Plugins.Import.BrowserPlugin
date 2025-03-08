@@ -2,7 +2,7 @@
   "name": "SuperMemo Connector",  
   "description": "Import web content in your SuperMemo collection.",  
   "author": "Alexis Incogito",  
-  "version": "0.1.0",  
+  "version": "0.1.1",  
   "manifest_version": 3,  
   "permissions": [  
     "tabs",  
