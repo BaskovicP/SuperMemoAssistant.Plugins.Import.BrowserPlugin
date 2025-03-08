@@ -25,13 +25,13 @@ function objectHas(object, key) {
 }
 
 function onPluginConnected() {
-	chrome.browserAction.setTitle({ title: app.name + " (connected)" });
-	chrome.browserAction.setIcon(robotIcons);
-	chrome.browserAction.enable();
+	chrome.action.setTitle({ title: app.name + " (connected)" });
+	chrome.action.setIcon(robotIcons);
+	chrome.action.enable();
 }
 
 function onPluginDisconnected() {
-	chrome.browserAction.setTitle({ title: app.name + " (disconnected)" });
-	chrome.browserAction.setIcon(robotDisabledIcons);
-	chrome.browserAction.disable();
+	chrome.action.setTitle({ title: app.name + " (disconnected)" });
+	chrome.action.setIcon(robotDisabledIcons);
+	chrome.action.disable();
 }
